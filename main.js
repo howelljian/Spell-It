@@ -63,7 +63,7 @@ function reset()
   
     var speaking = new SpeechSynthesisUtterance(word);
     synth.speak(speaking);
-    sleep(2000);
+    sleep(5000);
     synth.speak(speaking);
   
 
